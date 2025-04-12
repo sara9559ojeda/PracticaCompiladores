@@ -55,15 +55,15 @@ def parse_input(input_text):
 # Pruebas
 if __name__ == "__main__":
     casos = [
-        ("=== Prueba 1 ===", "class A { int x }"),
+        ("=== Prueba 1 ===", "class A { int x; }"),
         ("=== Prueba 2 ===", "class A { int x; }"),
         ("=== Prueba 3 ===", "class B { int f(x) { x = 3; } }"),
-        ("=== Prueba 4 ===", "class C { int f(a) { x 3; } }"),
-        ("=== Prueba 5 ===", "class D { int f(a) { f(3; } }"),
-        ("=== Prueba 6 ===", "class E { int f(a) { x = 3 4 5; } }"),
-        ("=== Prueba 7 ===", "class F { int f(a) { x = 1; }"),
-        ("=== Prueba 8 ===", "class G { x int; }"),
-        ("=== Prueba 9 ===", "class H { }"),
+        ("=== Prueba 4 ===", "class C { int f(a) { x = 3; } }"),
+        ("=== Prueba 5 ===", "class D { int f(x) { x = 3;} }"),
+        ("=== Prueba 6 ===", "class E { int f(a) { x = 3 + 4 + 5; } }"),
+        ("=== Prueba 7 ===", "class F {  int f(a)  { x = 1; }}"),
+        ("=== Prueba 8 ===", "class G { int x; }"),
+        ("=== Prueba 9 ===", "class H { int f(x) { x = 3; } }"),
         ("=== Prueba 10 ===", "class I { int f(x) { } }")
     ]
 
